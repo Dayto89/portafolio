@@ -153,12 +153,12 @@ function App() {
             <div className={`edu ${modeClass}`} onClick={handleOpenEdu1}>
               <h2>Academlo</h2>
               <p>Fundamentos del Desarrollo Web</p>
-              <img src="./public/images/Academlo.png" alt="" />
+              <img src="./public/images/academlo.jpg" alt="" />
             </div>
             <div className={`edu ${modeClass}`} onClick={handleOpenEdu2}>
               <h2>Academlo</h2>
               <p>Desarrollo de Aplicaciones Web con React</p>
-              <img src="./public/images/Academlo.png" alt="" />
+              <img src="./public/images/academlo.jpg" alt="" />
             </div>
           </div>
         </div>
