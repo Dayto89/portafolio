@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+
+$(document).ready(function () {
+    $('nav a').click(function (e) {
+      e.preventDefault();
+      var target = $(this).attr('href');
+      $('html, body').animate({
+        scrollTop: $(target).offset().top
+      }, 800);
+    });
+  });
+
+  </script>
+  <title>Portafolio DL</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
