@@ -63,7 +63,8 @@ function App() {
   }
 
   const handleOpenEdu2 = () => {
-    window.location.href = ""
+    const newWindow = window.open("https://certificates.academlo.com/en/verify/12557749626009");
+    newWindow.focus();
   }
 
   const handleOpenPro1 = () => {
@@ -152,12 +153,12 @@ function App() {
             <div className={`edu ${modeClass}`} onClick={handleOpenEdu1}>
               <h2>Academlo</h2>
               <p>Fundamentos del Desarrollo Web</p>
-              <img src="./public/icon-academlo.svg" alt="" />
+              <img src="./public/images/Academlo.png" alt="" />
             </div>
             <div className={`edu ${modeClass}`} onClick={handleOpenEdu2}>
               <h2>Academlo</h2>
-              <p></p>
-              <img src="./public/icon-academlo.svg" alt="" />
+              <p>Desarrollo de Aplicaciones Web con React</p>
+              <img src="./public/images/Academlo.png" alt="" />
             </div>
           </div>
         </div>
