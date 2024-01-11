@@ -102,9 +102,18 @@ function App() {
       <section id='home' className={`section__home`}>
         <div>
           <nav id='mainNav'>
+            <div className='menu'>
             <div className={`nav__social ${modeClass}`}>
+            <div
+              id='mode_white'
+              className={`boton mode_white ${modeClass}`}
+              onClick={changeMode}
+              >
+              {isDarkMode ? <i className='bx bxs-moon'></i> : <i className='bx bxs-sun'></i>}
+            </div>
               <div className='social' onClick={handleOpenSocial1}><i class='bx bxl-linkedin'></i></div>
               <div className='social' onClick={handleOpenSocial2}><i class='bx bxl-github' ></i></div>
+
             </div>
             <ul>
               <a href="#home">Home</a>
@@ -114,12 +123,6 @@ function App() {
               <a href="#proyects">Proyectos</a>
               <a href="#contac">Contacto</a>
             </ul>
-            <div
-              id='mode_white'
-              className={`mode_white ${modeClass}`}
-              onClick={changeMode}
-            >
-              {isDarkMode ? <i className='bx bxs-moon'></i> : <i className='bx bxs-sun'></i>}
             </div>
           </nav>
           <h1 className={`name ${modeClass}`}><strong>{'['}</strong> Daniel López <strong>{"]"}</strong></h1>

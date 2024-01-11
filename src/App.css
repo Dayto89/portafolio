@@ -402,20 +402,32 @@ nav a:hover {
 
   @media (max-width: 768px) {
     nav {
-        padding: 30px;
+        padding: 0px;
     }
 
     .nav__social {
         position: static;
         gap: 10px;
-        font-size: 24px;
-        top: 80px;
+        font-size: 30px;
+        margin-top: 10px;
         margin-right: 10px;
+        width: 100px;
+        padding: 15px 0px;
+    }
+
+    .social{
+        width: 25px;
+        height: 30px;
+    }
+
+    .boton {
+        padding: 0px 0px;
     }
 
     .mode_white {
+        top: 15px;
         right: 20px;
-        bottom: 26px;
+        bottom: 35px;
         font-size: 15px;
         width: 30px;
         height: 30px;
@@ -423,8 +435,8 @@ nav a:hover {
     }
 
     nav a {
-        font-size: 18px;
-        padding: 10px;
+        font-size: 20px;
+        padding: 5px;
         margin: 0 0 5px 0;
     }
 
@@ -550,15 +562,14 @@ nav a:hover {
 
 @media (max-width: 480px) {
     nav {
-        padding: 20px;
+        padding: 00px;
     }
 
     .nav__social {
         position: static;
-        margin-top: 3px;
+        padding: 5px;
         gap: 10px;
-        font-size: 10px;
-        margin-right: 5px;
+        font-size: 15px;
     }
 
     .mode_white {
@@ -571,9 +582,8 @@ nav a:hover {
     }
 
     nav a {
-        font-size: 10px;
-        padding: 5px;
-        margin: 0 0 5px 0;
+        font-size: 15px;
+        padding: 0px 0px 0px 10px;
     }
 
     .name {
