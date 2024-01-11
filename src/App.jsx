@@ -104,16 +104,17 @@ function App() {
           <nav id='mainNav'>
             <div className='menu'>
             <div className={`nav__social ${modeClass}`}>
+
+              <div className='social' onClick={handleOpenSocial1}><i class='bx bxl-linkedin'></i></div>
+              <div className='social' onClick={handleOpenSocial2}><i class='bx bxl-github' ></i></div>
+
+            </div>
             <div
               id='mode_white'
               className={`boton mode_white ${modeClass}`}
               onClick={changeMode}
               >
               {isDarkMode ? <i className='bx bxs-moon'></i> : <i className='bx bxs-sun'></i>}
-            </div>
-              <div className='social' onClick={handleOpenSocial1}><i class='bx bxl-linkedin'></i></div>
-              <div className='social' onClick={handleOpenSocial2}><i class='bx bxl-github' ></i></div>
-
             </div>
             <ul>
               <a href="#home">Home</a>
