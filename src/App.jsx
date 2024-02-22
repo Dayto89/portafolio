@@ -118,7 +118,7 @@ function App() {
             </div>
             <ul>
               <a href="#home">Home</a>
-              <a href="#about">Sobre mi</a>
+              <a href="#about">Sobre mí</a>
               <a href="#skills">Habilidades</a>
               <a href="#education">Educación</a>
               <a href="#proyects">Proyectos</a>
@@ -131,8 +131,8 @@ function App() {
         </div>
       </section>
       <section id='about' className={`section__about ${modeClass}`}>
-        <h1 className={`about ${modeClass}`}>Sobre mi</h1>
-        <p className={`about ${modeClass}`}>Mi nombre es Daniel Leonardo López Barón, tengo 20 años, soy desarrollador Full-Stack, mis motivaciones de cada día es seguir mejorando, buscar ser mejor que ayer, siempre buscando aprender de los errores del día anterior.</p>
+        <h1 className={`about ${modeClass}`}>Sobre mí</h1>
+        <p className={`about ${modeClass}`}>Mi nombre es Daniel Leonardo López Barón, tengo 21 años, soy desarrollador Full-Stack, mis motivaciones de cada día es seguir mejorando, buscar ser mejor que ayer, siempre buscando aprender de los errores del día anterior.</p>
         <a href="/CV_Daniel_L_L_B.pdf" download="CV_Daniel_L_L_B.pdf">
           <button className={`${modeClass}`}>Descargar CV</button>
         </a>
